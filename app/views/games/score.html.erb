@@ -1,0 +1,7 @@
+<br>
+<br>
+<% @guess.split('').each do |letter| %>
+ <% if @letters.include?(letter) %>
+  <li><%= letter %></li>
+ <% end %>
+<% end %>
